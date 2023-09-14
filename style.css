@@ -116,6 +116,7 @@ row-gap: 30px;
                 flex-direction: row;
                 display: flex;
                 margin: auto;
+                text-align: center;
               }
   .footer{ 
     text-align: center;
@@ -194,4 +195,12 @@ row-gap: 30px;
  #imgWork{
     width: 300px;
     height: 300px;
+ }
+ #photHeading {
+    font-size: large;
+    font-weight: 100;
+    text-align: center;
+    background-imagcdn.hashnode.com/res/hashnode/image/upload/v1618267119643/vGeyQvCM9.png?auto=compress,format&format=webp;
+  
+   
  }
