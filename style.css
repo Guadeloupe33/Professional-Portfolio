@@ -197,10 +197,15 @@ row-gap: 30px;
     height: 300px;
  }
  #photHeading {
-    font-size: large;
-    font-weight: 100;
+    border: none;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
-    background-imagcdn.hashnode.com/res/hashnode/image/upload/v1618267119643/vGeyQvCM9.png?auto=compress,format&format=webp;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
   
    
  }
