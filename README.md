@@ -7,6 +7,10 @@ index.html: The main HTML file for your website.
 styles.css: The CSS file containing basic styles for the website.
 
 img/: A directory to store your images. You can organize your images into subdirectories within this folder.
+This project was created to display the functionality of flexes boxes. 
+
+
+<img src=" homework 2 screenshot .jpg" alt="Website screenshot" />
 
 
 
