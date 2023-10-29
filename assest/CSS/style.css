@@ -5,19 +5,17 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
- :root {
-    --primary-color: #404b65;
-    --secondary-color: #97bec6;
-    --tertiary-color: #96c7c9;
+:root {
+    --primary-color: #2E86DE;  /* Modern primary color */
+    --secondary-color: #E74C3C;  /* Modern secondary color */
+    --tertiary-color: #27AE60;  /* Modern tertiary color */
 }
 
 body {
-    background-color: #ebebf4;
+    background-color: #F5F6FA;  /* Light background color */
 }
 
-
-/* Utility */
-
+/* Utility Styles */
 section {
     padding: 3%;
 }
@@ -27,12 +25,7 @@ section {
     justify-content: space-evenly;
 }
 
-
-/* Utility End */
-
-
-/* Header */
-
+/* Header Styles */
 header {
     padding: 20px 35px;
     background-color: var(--primary-color);
@@ -81,15 +74,13 @@ header nav ul li a:hover {
     font-weight: 500;
 }
 
-
-/* Hero Style Start */
-
+/* Hero Section Styles */
 .hero {
     height: 20vw;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-attachment: scroll;
-    position: relative
+    position: relative;
 }
 
 .hero-subtitle {
@@ -102,15 +93,9 @@ header nav ul li a:hover {
     right: 5%;
     bottom: 5%;
     text-align: center;
-    ;
 }
 
-
-/* Hero Style end */
-
-
-/* -------------------------CONTENT BODY -------------------------- */
-
+/* Content Body Styles */
 .content {
     width: 80vw;
     margin: auto;
@@ -131,22 +116,12 @@ header nav ul li a:hover {
     width: 90%;
 }
 
-
-/* -------------------------CONTENT BODY -------------------------- */
-
-
-/* About Section */
-
+/* About Section Styles */
 .about p {
     margin: 1vw;
 }
 
-
-/* About Section End */
-
-
-/* Work */
-
+/* Work Section Styles */
 .grid-container {
     display: grid;
     grid-template-columns: fr 1fr 1fr 1fr 1fr 1fr;
@@ -174,7 +149,7 @@ header nav ul li a:hover {
     padding: 15px;
     align-items: flex-end;
     position: relative;
-    top: 0x;
+    top: 0px;
     left: 0px;
     overflow: hidden;
 }
@@ -218,45 +193,40 @@ header nav ul li a:hover {
 
 .featured {
     grid-area: featured;
-    background-image: url("../images/ticketfinder-featured.jpg");
+    background-image: url("image_url1.jpg"); /* Update with project image URL */
     background-size: cover;
     background-position: top left;
 }
 
 .kcp {
     grid-area: kcp;
-    background-image: url("../images/kcp.jpg");
+    background-image: url("image_url2.jpg"); /* Update with project image URL */
     background-size: cover;
     background-position: top left;
 }
 
 .adobe-portfolio {
     grid-area: adobe-portfolio;
-    background-image: url("../images/jakekelly.jpg");
+    background-image: url("image_url3.jpg"); /* Update with project image URL */
     background-size: cover;
     background-position: top left;
 }
 
 .run-buddy {
     grid-area: run-buddy;
-    background-image: url("../images/run-buddy.jpg");
+    background-image: url("image_url4.jpg"); /* Update with project image URL */
     background-size: cover;
     background-position: top left;
 }
 
 .horiseon {
     grid-area: horiseon;
-    background-image: url("../images/here_there.png");
+    background-image: url("image_url5.jpg"); /* Update with project image URL */
     background-size: cover;
     background-position: top left;
 }
 
-
-/* Work */
-
-
-/* Contact */
-
+/* Contact Section Styles */
 nav.footer {
     margin: 0px 15px;
 }
@@ -273,101 +243,5 @@ nav.footer ul li a {
     margin: 5px 10px;
     padding: 5px;
     font-weight: lighter;
-    font-size: 1.1vw;
-    text-decoration: none;
-    color: var(--primary-color);
-    border-bottom: 2px solid;
-    border-color: var(--primary-color);
-}
-
-nav.footer ul li a:hover {
-    color: white;
-    background-color: var(--primary-color)
-}
-
-
-/* Contact End */
-
-@media only screen and (max-width: 768px) {
-    .content {
-        width: 100%;
-    }
-    .flex-row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .section-title {
-        border: none;
-        margin: auto;
-        margin-bottom: 2vw;
-        text-align: center;
-        width: 100%;
-        font-size: 3.5vw;
-    }
-    .grid-container {
-        display: block;
-        grid-template-columns: fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 15px;
-        grid-template-areas: "featured featured featured featured run-buddy run-buddy" "featured featured featured featured horiseon horiseon" "kcp kcp adobe-portfolio adobe-portfolio . .";
-        width: 100%;
-        height: 100%;
-    }
-    .grid-item {
-        min-height: 40vw;
-        margin: 2vw auto;
-    }
-    .grid-img {
-        min-height: 40vw;
-    }
-    .contact {
-        position: relative;
-        bottom: 0;
-    }
-    header {
-        display: block;
-    }
-    header a {
-        text-decoration: none;
-    }
-    header h1 {
-        font-size: 5vw;
-        width: 100%;
-        left: 0px;
-        text-align: center;
-        background-color: var(--secondary-color);
-        color: var(--primary-color);
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-    header nav ul {
-        display: block;
-        text-align: center;
-    }
-    header nav ul li {
-        width: 100%;
-        margin: 25px 0px 25px 0px;
-    }
-    header nav ul li a {
-        width: 100%;
-        padding: 5px;
-        font-weight: normal;
-        font-size: 4vw;
-        color: var(--secondary-color);
-        border-bottom: 2px solid;
-    }
-    .hero {
-        display: none;
-    }
-    nav.footer ul {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-    nav.footer ul li {
-        margin-top: 2vw;
-    }
-    nav.footer ul li a {
-        font-size: 3vw;
-    }
+    font-size: 1.1vw
 }
