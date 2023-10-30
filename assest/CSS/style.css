@@ -77,7 +77,7 @@ header nav ul li a:hover {
 /* Hero Section Styles */
 .hero {
     height: 20vw;
-    background-image: url("assest/images/banner.jpg");
+    background-image: url("assest/images/project banner.png");
     background-size: cover;
     background-attachment: scroll;
     position: relative;
