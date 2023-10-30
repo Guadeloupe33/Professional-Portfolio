@@ -10,7 +10,7 @@ img/: A directory to store your images. You can organize your images into subdir
 This project was created to display the functionality of flexes boxes. 
 
 
-<img src=" homework 2 screenshot .jpg" alt="Website screenshot" />
+<img src="./assest/images/homework2.jpg" alt="Website screenshot" />
 
 
 

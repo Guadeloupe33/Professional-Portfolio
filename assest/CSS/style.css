@@ -6,16 +6,16 @@
 }
 
 :root {
-    --primary-color: #2E86DE;  /* Modern primary color */
-    --secondary-color: #E74C3C;  /* Modern secondary color */
-    --tertiary-color: #27AE60;  /* Modern tertiary color */
+    --primary-color: #2E86DE;  
+    --secondary-color: #E74C3C; 
+    --tertiary-color: #27AE60;  
 }
 
 body {
-    background-color: #F5F6FA;  /* Light background color */
+    background-color: #F5F6FA; 
 }
 
-/* Utility Styles */
+
 section {
     padding: 3%;
 }
@@ -25,7 +25,7 @@ section {
     justify-content: space-evenly;
 }
 
-/* Header Styles */
+
 header {
     padding: 20px 35px;
     background-color: var(--primary-color);
@@ -74,10 +74,10 @@ header nav ul li a:hover {
     font-weight: 500;
 }
 
-/* Hero Section Styles */
+
 .hero {
     height: 20vw;
-    background-image: url("assest/images/project banner.png");
+    background-image: url("../images/STeven\ Francius.png");
     background-size: cover;
     background-attachment: scroll;
     position: relative;
@@ -95,7 +95,7 @@ header nav ul li a:hover {
     text-align: center;
 }
 
-/* Content Body Styles */
+
 .content {
     width: 80vw;
     margin: auto;
@@ -116,12 +116,12 @@ header nav ul li a:hover {
     width: 90%;
 }
 
-/* About Section Styles */
+
 .about p {
     margin: 1vw;
 }
 
-/* Work Section Styles */
+
 .grid-container {
     display: grid;
     grid-template-columns: fr 1fr 1fr 1fr 1fr 1fr;
@@ -193,35 +193,35 @@ header nav ul li a:hover {
 
 .featured {
     grid-area: featured;
-    background-image: url("image_url1.jpg"); /* Update with project image URL */
+    background-image: url("../images/project1\ .png");    
     background-size: cover;
     background-position: top left;
 }
 
 .kcp {
     grid-area: kcp;
-    background-image: url("image_url2.jpg"); /* Update with project image URL */
+    background-image: url("../images/project2.png"); 
     background-size: cover;
     background-position: top left;
 }
 
 .adobe-portfolio {
     grid-area: adobe-portfolio;
-    background-image: url("image_url3.jpg"); /* Update with project image URL */
+    background-image: url("../images/project\ 3\ .png"); 
     background-size: cover;
     background-position: top left;
 }
 
 .run-buddy {
     grid-area: run-buddy;
-    background-image: url("image_url4.jpg"); /* Update with project image URL */
+    background-image: url("../images/project4.png"); 
     background-size: cover;
     background-position: top left;
 }
 
 .horiseon {
     grid-area: horiseon;
-    background-image: url("image_url5.jpg"); /* Update with project image URL */
+    background-image: url("../images/project5.png"); 
     background-size: cover;
     background-position: top left;
 }
